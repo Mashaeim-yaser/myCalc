@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Calculator</title>
+    <script src="https://kit.fontawesome.com/23c05ae2cf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<!--nav bar-->
+    <nav class="navbar">
+        <a class="logo" href="#"><img src="./logo.png" alt="calculator-logo"></a>
+    <div class="navbar-nav">
+        <ul class="nav-items">
+             <li><a class="calculator" href="#cal">Calculator</a></li>
+             <li><a class="tax-slabs" href="#slabs">Tax Slabs</a></li>
+             <li><a class="contact" href="#cont">Contact</a></li>
+             <li><a class="about" href="#about">About</a></li>
+             
+        </ul>
+    </div>
+    </nav>
+
+<!--Main text--> 
+        <section class="main-text" id="cal">
+        <div class="title">
+            <h1>Tax Calculator Pakistan 2022-2023</h1>
+            <p>This is latest tax calculator as per 2022-2023 budget presented by government of Pakistan.</p>
+        </div>
+        <div class="input">
+                <textarea id="ammount" placeholder="Enter Amount Here"></textarea>
+                <select id="selection">
+                    <option>Monthly</option>
+                    <option>Anually</option>
+                </select>
+                <input type="submit" id="submit1" value="Calculate">
+                
+        </div>
+<!--Budget section-->
+        <section class="slabs" id="slabs">
+            <div class="heading">
+                <h3>Income Tax Slabs</h3>
+                <p>As per Federal Budget 2022-2023 presented by Government of Pakistan, following slabs and income tax rates will be applicable for salaried persons for the year 2022-2023:</p>            
+            </div>
+            <div class="list">
+                <ul class="points">
+                    <li> Where the taxable salary income does not exceed Rs. 600,000 the rate of income tax is 0%.</li>
+                    <li>Where the taxable salary income exceeds Rs. 600,000 but does not exceed Rs. 1,200,000 the rate of income tax is Rs. 100</li>
+                    <li>Where the taxable salary income exceeds Rs. 1,200,000 but does not exceed Rs. 2,400,000 the rate of income tax is 7% of the amount exceeding Rs. 1,200,000.</li>
+                    <li>Where the taxable salary income exceeds Rs. 2,400,000 but does not exceed Rs. 3,600,000 the rate of income tax is Rs. 84,000 + 12.5% of the amount exceeding Rs. 2,400,000.</li>
+                    <li>Where the taxable salary income exceeds Rs. 3,600,000 but does not exceed Rs. 6,000,000 the rate of income tax is Rs. 234,000 + 17.5% of the amount exceeding Rs. 3,600,000.</li>
+                    <li>Where the taxable salary income exceeds Rs. 6,000,000 but does not exceed Rs. 12,000,000 the rate of income tax is Rs. 654,000 + 22.5% of the amount exceeding Rs. 6,000,000.</li>
+                    <li>Where the taxable salary income exceeds Rs. 12,000,000 the rate of income tax is Rs. 2,004,000 + 32.5% of the amount exceeding Rs. 12,000,000.</li>
+                </ul>
+            </div>
+        </section>
+<!--QUERIES-->
+        <section class="contact" id="cont">
+            <h2>Contact Us</h2>
+            <div class="row">
+                <div class="column1">
+                    <h4>Submit your tax queries?</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="column2">
+                    <form action="/action_page.php">
+                        <label for="fname">Full name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="email">Email Address:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <br><textarea id="queries" placeholder="Your Query?"></textarea><br>
+                        <input type="submit" id="submit" value="Ask Now">
+                    </form>
+                </div>
+            </div>
+        </section>
+<!--About section-->
+            <div class="about" id="about">
+                <h4>About Us</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+<!--Footer-->
+        <footer>
+            <div class="apps">
+                <ul>
+                    <li id="insta">
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                    <li id="fb">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+            </div>  
+            <div class="copyright">
+                <p>Designed and Developed by DevelopEirs © 2022 DevelopEirs</p>
+                <h4>Contact Us</h4>
+            </div>  
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
